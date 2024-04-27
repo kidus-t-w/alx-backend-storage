@@ -10,4 +10,4 @@ CREATE TABLE IF NOT EXISTS users (
     email VARCHAR(225) NOT NULL UNIQUE,
     name VARCHAR(225),
     country ENUM('US', 'CO', 'TN') DEFAULT 'US' NOT NULL
-)
+);
