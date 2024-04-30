@@ -1,0 +1,2 @@
+// Deletes all documents with name="Holborton school"
+db.school.remove({name: "Holborton school"}, {multi: true})
